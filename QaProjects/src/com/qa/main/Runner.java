@@ -13,10 +13,11 @@ public class Runner {
 
 		// System.out.println(UniqueSum.calculator(1, 1, 3));
 		
-		int salary = 29999;
-
-		Taxes.taxCalculationMethod1(salary);
-		Taxes.taxCalculationMethod2(salary);
+		//Taxes.taxCalculationMethod1(100000);
+		
+		//IterationNumbers.iterationNumbersMethod1(74);
+		IterationNumbers.iterationNumbersMethod2(8547);
+		
 	}
 
 }
