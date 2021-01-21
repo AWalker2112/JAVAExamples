@@ -51,24 +51,21 @@ public class ResultsRevisited {
 
 			if (((physics * 100) / 150) > 60 && ((chemistry * 100) / 150) > 60) {
 				System.out.println("You have failed Biology.");
-				
-			} else if( ((physics * 100) / 150) > 60  && ((biology * 100) / 150) > 60) {
+
+			} else if (((physics * 100) / 150) > 60 && ((biology * 100) / 150) > 60) {
 				System.out.println("You have failed Chemistry.");
-				
-			} else if( ((chemistry * 100) / 150) > 60  && ((biology * 100) / 150) > 60){
+
+			} else if (((chemistry * 100) / 150) > 60 && ((biology * 100) / 150) > 60) {
 				System.out.println("You have failed Physics.");
 			} else {
-				System.out.println("You have failed more than one exam. " + "You're overall percentage is: " + percentage + "%");
-				
+				System.out.println(
+						"You have failed more than one exam. " + "You're overall percentage is: " + percentage + "%");
+
 			}
-				
-			
 
 		}
 
 	}
-
-	
 
 	public static void method2() {
 

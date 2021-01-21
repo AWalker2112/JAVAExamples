@@ -1,9 +1,7 @@
 package com.qa.main;
 
 public class CalculatorRevisited {
-	
-	
-	
+
 	public static int operatorPlus(int firstNumber, int secondNumber) {
 
 		int num1 = firstNumber;
@@ -35,19 +33,17 @@ public class CalculatorRevisited {
 
 		double num1 = firstNumber;
 		double num2 = secondNumber;
-		
+
 		if (num1 < num2) {
-		
-		double result = num1 / num2;
-		System.out.println(result);
-		
-		}else {
-			
-		System.out.println("The operation cannot be performed. The first number must be smaller than the second.");
-		
+
+			double result = num1 / num2;
+			System.out.println(result);
+
+		} else {
+
+			System.out.println("The operation cannot be performed. The first number must be smaller than the second.");
+
 		}
-	
-		
 
 	}
 };
