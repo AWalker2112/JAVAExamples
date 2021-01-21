@@ -1,0 +1,54 @@
+import com.sun.tools.sjavac.pubapi.PubApi;
+
+public class HelloWorldClass {
+	public static String printMessage(String message) {
+		return message;
+	}
+
+	public static void main(String[] args) {
+
+		System.out.println(printMessage("Hello World!"));
+		System.out.println(operatorPlus(1, 2));
+		System.out.println(operatorMinus(1, 2));
+		System.out.println(operatorMultiple(1, 2));
+		System.out.println(operatorDivide(1, 2));
+	}
+
+	public static int operatorPlus(int firstNumber, int secondNumber) {
+
+		int num1 = firstNumber;
+		int num2 = secondNumber;
+		int result = num1 + num2;
+
+		return result;
+	}
+
+	public static int operatorMinus(int firstNumber, int secondNumber) {
+
+		int num1 = firstNumber;
+		int num2 = secondNumber;
+		int result = num1 - num2;
+
+		return result;
+	}
+
+	public static int operatorMultiple(int firstNumber, int secondNumber) {
+
+		int num1 = firstNumber;
+		int num2 = secondNumber;
+		int result = num1 * num2;
+
+		return result;
+	}
+
+	public static float operatorDivide(int firstNumber, int secondNumber) {
+
+		int num1 = firstNumber;
+		int num2 = secondNumber;
+		int result = num1 / num2;
+
+		return result;
+		
+		
+	}
+}
