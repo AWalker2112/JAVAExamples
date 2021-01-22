@@ -21,10 +21,9 @@ public class Runner {
 
 		// IterationNumbersRevisited.number(6825);
 		
-		Coins.coinsExercise(50, 10.08
-				); //(Payment, Cost)
+		// Coins.coinsExercise(50, 10.08); //(Payment, Cost)
 		
-		//Coins.coinsExercise2(24,50);
+		StringManipulation.stringManipulation4();
 		
 		
 	}

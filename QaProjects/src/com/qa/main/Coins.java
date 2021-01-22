@@ -52,7 +52,7 @@ public class Coins {
 		double remainderFifty = remainderPound % 100;
 		// System.out.println(remainderPound);
 		// System.out.println(remainderFifty);
-		double changeCoins = remainderPound;
+		
 
 		remainderPound = remainderPound - (remainderPound % 100);
 
@@ -125,9 +125,6 @@ public class Coins {
 
 	}
 
-	public static void coinsExercise2(double num1, double num2) {
-
-		System.out.println(num1 % num2);
-	}
+	
 
 }
