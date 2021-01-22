@@ -12,11 +12,20 @@ public class Runner {
 		// System.out.println(BlackJack.blackJackLogic(23, 5));
 
 		// System.out.println(UniqueSum.calculator(1, 1, 3));
+
+		// Taxes.taxCalculationMethod1(100000);
+
+		// IterationNumbers.iterationNumbersMethod1(74);
+
+		// terationNumbers.iterationNumbersMethod2(8547);
+
+		// IterationNumbersRevisited.number(6825);
 		
-		//Taxes.taxCalculationMethod1(100000);
+		Coins.coinsExercise(10, 2.07
+				); //(Payment, Cost)
 		
-		//IterationNumbers.iterationNumbersMethod1(74);
-		IterationNumbers.iterationNumbersMethod2(8547);
+		Coins.coinsExercise2(17.44,5);
+		
 		
 	}
 

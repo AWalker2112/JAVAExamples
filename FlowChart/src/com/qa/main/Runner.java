@@ -6,7 +6,14 @@ public class Runner {
 		
 		// DescisionMaker.logic(501);
 		
-		IterationFlowChart.iterationFlowChart(100);
+		// IterationFlowChart.iterationFlowChart(100);
+		
+		// IterationFlowChart.iterationFlowChartQ3();
+		
+		// IterationFlowChart.iterationFlowChartQ4(100);
+		
+		IterationFlowChart.iterationFlowChartQ5();
+		
 		
 	}
 
