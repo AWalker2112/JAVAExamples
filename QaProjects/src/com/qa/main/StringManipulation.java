@@ -63,7 +63,7 @@ public class StringManipulation {
 		for (int i = testString.length(); i > 0; i--) {
 
 			String spaceCheck = testString.substring(i - 1, i);
-			
+
 			if (spaceCheck.equals(" ")) {
 
 				System.out.println(testString.substring(i, i + wordLengthCount));
@@ -77,23 +77,21 @@ public class StringManipulation {
 		}
 		System.out.println(testString.substring(0, wordLengthCount));
 	}
-	
+
 	public static void stringManipulation4() {
-		
+
 		String message = "Hello world, I have a message";
 		String find = "I have";
-		
-		for (int i = 0 ; i < (message.length()-find.length()); i++) {
-			System.out.println(i);
-			if (message.substring(i,i+find.length()).equals(find)) {
-				
+
+		for (int i = 0; i < (message.length() - find.length()); i++) {
+
+			if (message.substring(i, i + find.length()).equals(find)) {
+
 				System.out.println("The find result is in the message");
+
 			}
 		}
-				
-		
-		
-		
+
 	}
 
 }

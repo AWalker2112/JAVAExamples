@@ -20,12 +20,19 @@ public class Runner {
 		// terationNumbers.iterationNumbersMethod2(8547);
 
 		// IterationNumbersRevisited.number(6825);
+
+		// Coins.coinsExercise(20, 13.67); //(Payment, Cost)
+
+		// StringManipulation.stringManipulation4();
 		
-		// Coins.coinsExercise(50, 10.08); //(Payment, Cost)
+		//int num1[]={1,2,3,4,5,6,7,8,9,10};
 		
-		StringManipulation.stringManipulation4();
+		//Arrays.arrayExercise1(num1);
+		
+		Arrays.arrayExercise2();
 		
 		
+
 	}
 
 }
