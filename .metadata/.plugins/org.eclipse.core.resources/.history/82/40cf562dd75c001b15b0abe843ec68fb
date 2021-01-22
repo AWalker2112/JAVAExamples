@@ -1,0 +1,32 @@
+package com.qa.main;
+
+public class Arrays {
+
+	public static void arrayExercise1(int[] input1) {
+		
+
+		for (int i : input1) {
+
+			System.out.println("Number: " + i);
+
+		}
+	}
+	
+	
+	public static void arrayExercise2() {
+		
+		
+		int arrayExercise2 [] ;
+		
+		for (int i:arrayExercise2 ) {
+			
+			arrayExercise2[i] = i;
+			
+			System.out.println("Number: " + i);
+			
+		}
+		
+		
+	}
+
+}

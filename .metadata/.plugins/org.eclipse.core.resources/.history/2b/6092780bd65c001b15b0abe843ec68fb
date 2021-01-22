@@ -1,0 +1,14 @@
+package com.qa.main;
+
+public class Arrays {
+	
+	public static void arrayExercise1(int[] input1) {
+		System.out.println(input1);
+		
+		for (int i : num1) {
+			
+			
+		}
+	}
+
+}

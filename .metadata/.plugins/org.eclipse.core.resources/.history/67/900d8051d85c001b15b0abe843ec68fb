@@ -1,0 +1,34 @@
+package com.qa.main;
+import java.util.ArrayList;
+
+public class Arrays {
+
+	public static void arrayExercise1(int[] input1) {
+		
+
+		for (int i : input1) {
+
+			System.out.println("Number: " + i);
+
+		}
+	}
+	
+	
+	public static void arrayExercise2() {
+		
+		
+		int arrayExercise2 [] = {0};
+		
+		for (int i = 0; i < 10; i++ ) {
+			
+			arrayExercise2[i] = i;
+			
+			System.out.println("Number: " + i);
+			
+			
+		}
+		
+		
+	}
+
+}
