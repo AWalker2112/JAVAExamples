@@ -1,6 +1,6 @@
 package com.qa.main;
 
-public class IterationNumbers {
+public class IterationNumbersRevisited {
 
 	private static final String[] tensNames = { "", " ten", " twenty", " thirty", " forty", " fifty", " sixty",
 			" seventy", " eighty", " ninety" };
@@ -9,16 +9,7 @@ public class IterationNumbers {
 			" eight", " nine", " ten", " eleven", " twelve", " thirteen", " fourteen", " fifteen", " sixteen",
 			" seventeen", " eighteen", " nineteen" };
 
-	public static void iterationNumbersMethod1(int num1) {
-
-		int numOne = num1 % 10;
-		int numTen = (num1 - (num1 % 10)) / 10;
-
-		System.out.println(numOne + numTen);
-
-	}
-
-	public static void iterationNumbersMethod2(int num2) {
+	public static void number(int num2) {
 
 		int numOne = num2 % 10;
 		int numTen;
@@ -49,51 +40,22 @@ public class IterationNumbers {
 
 		}
 
-		int numCount = 0;
-		int tenCount = 0;
-		int hundredCount = 0;
-		int thousandCount = 0;
+		int numCount;
+		int tenCount;
+		int hundredCount;
+		int thousandCount;
 
-		boolean correctNum = true;
-		boolean correctTen = true;
-		boolean correctHundred = true;
-		boolean correctThousand = true;
+		for (numCount = 0; numCount < numOne; numCount++) {
 
-		while (correctNum) {
-
-			numCount++;
-
-			if (numCount >= numOne) {
-				correctNum = false;
-
-			}
 		}
+		for (tenCount = 0; tenCount < numTen; tenCount++) {
 
-		while (correctTen) {
-
-			tenCount++;
-			if (tenCount >= numTen) {
-				correctTen = false;
-
-			}
 		}
+		for (hundredCount = 0; hundredCount < numHundred; hundredCount++) {
 
-		while (correctHundred) {
-
-			hundredCount++;
-			if (hundredCount >= numHundred) {
-				correctHundred = false;
-
-			}
 		}
+		for (thousandCount = 0; thousandCount < numThousand; thousandCount++) {
 
-		while (correctThousand) {
-
-			thousandCount++;
-			if (thousandCount >= numThousand) {
-				correctThousand = false;
-
-			}
 		}
 
 		if (num2 < 1000) {
@@ -106,19 +68,19 @@ public class IterationNumbers {
 
 			} else {
 				if (teenCheck < 20) {
-					System.out.println(numNames[numHundred] + " hundred and" + numNames[teenCheck]);
+					System.out.println(numNames[hundredCount] + " hundred and" + numNames[teenCheck]);
 				} else {
-					System.out
-							.println(numNames[numHundred] + " hundred and" + tensNames[tenCount] + numNames[numCount]);
+					System.out.println(
+							numNames[hundredCount] + " hundred and" + tensNames[tenCount] + numNames[numCount]);
 				}
 
 			}
 		} else {
 			if (teenCheck < 20) {
-				System.out.println(numNames[numThousand] + " thousand" + numNames[numHundred] + " hundred and"
+				System.out.println(numNames[thousandCount] + " thousand" + numNames[hundredCount] + " hundred and"
 						+ numNames[teenCheck]);
 			} else {
-				System.out.println(numNames[numThousand] + " thousand" + numNames[numHundred] + " hundred and"
+				System.out.println(numNames[thousandCount] + " thousand" + numNames[hundredCount] + " hundred and"
 						+ tensNames[tenCount] + numNames[numCount]);
 			}
 
