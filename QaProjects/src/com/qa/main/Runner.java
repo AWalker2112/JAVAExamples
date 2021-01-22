@@ -15,16 +15,16 @@ public class Runner {
 
 		// Taxes.taxCalculationMethod1(100000);
 
-		// IterationNumbers.iterationNumbersMethod1(74);
+		// IterationNumbe.rs.iterationNumbersMethod1(74);
 
 		// terationNumbers.iterationNumbersMethod2(8547);
 
 		// IterationNumbersRevisited.number(6825);
 		
-		Coins.coinsExercise(10, 2.07
+		Coins.coinsExercise(50, 10.08
 				); //(Payment, Cost)
 		
-		Coins.coinsExercise2(17.44,5);
+		//Coins.coinsExercise2(24,50);
 		
 		
 	}

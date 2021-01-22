@@ -18,13 +18,15 @@ public class Coins {
 
 		} else {
 
-			System.out.println("You recieve x" + (remainderTwenty / 2000) + " £20 note(s)");
+			System.out.println("You recieve x" + Math.round(((remainderTwenty / 2000))) + " £20 note(s)");
 
 		}
 
-		double remainderTen = change % 1000;
+		/////// TEN NOTES \\\\\\\
 
-		if (remainderTen == 0 || remainderTen == change) {
+		double remainderTen = change % 2000;
+
+		if (remainderTen < 1000) {
 
 		} else {
 
@@ -32,9 +34,11 @@ public class Coins {
 
 		}
 
-		double remainderFive = change % 500;
+		/////// FIVE NOTES \\\\\\\
 
-		if (remainderFive == 0 || remainderFive == change) {
+		double remainderFive = change % 1000;
+
+		if (remainderFive < 500) {
 
 		} else {
 
@@ -42,10 +46,12 @@ public class Coins {
 
 		}
 
+		/////// FIFTY COINS \\\\\\\
+
 		double remainderPound = change % 500;
 		double remainderFifty = remainderPound % 100;
-		//System.out.println(remainderPound);
-		//System.out.println(remainderFifty);
+		// System.out.println(remainderPound);
+		// System.out.println(remainderFifty);
 		double changeCoins = remainderPound;
 
 		remainderPound = remainderPound - (remainderPound % 100);
@@ -54,7 +60,7 @@ public class Coins {
 
 		} else {
 
-			System.out.println("You recieve x" + (remainderPound / 100) + " £1 coin(s)");
+			System.out.println("You recieve x" + (Math.round((remainderPound / 100))) + " £1 coin(s)");
 
 		}
 
@@ -64,15 +70,19 @@ public class Coins {
 
 		}
 
-		double remainderTwentyCoin = remainderFifty - (remainderFifty % 20);
+		/////// TWENTY COINS \\\\\\\
+
+		double remainderTwentyCoin = remainderFifty % 50 - (remainderFifty % 50 % 20);
 
 		if (remainderTwentyCoin == 0) {
 
 		} else {
-			System.out.println("You recieve x" + (remainderTwentyCoin / 40) + " 20p coin(s)");
+			System.out.println("You recieve x" + (Math.round((remainderTwentyCoin / 20))) + " 20p coin(s)");
 		}
 
-		double remainderTenCoin = (remainderFifty % 20) - ((remainderFifty % 20) % 10);
+		/////// TEN COINS \\\\\\\
+
+		double remainderTenCoin = (remainderFifty % 50 % 20) - (remainderFifty % 50 % 20 % 10);
 
 		if (remainderTenCoin == 0) {
 
@@ -80,40 +90,38 @@ public class Coins {
 			System.out.println("You recieve x" + 1 + " 10p coin");
 		}
 
-		double remainderFiveCoin = ((remainderFifty % 20) - ((remainderFifty % 20) % 5)) % 5;
+		/////// FIVE COINS \\\\\\\
 
+		double remainderFiveCoin = (remainderFifty%10) - (remainderFifty%10%5);
+		
 		if (remainderFiveCoin == 0) {
 
 		} else {
 			System.out.println("You recieve x" + 1 + " 5p coin");
-			
 
 		}
-		
-		
-		double remainderTwoCoin = ((remainderFifty % 10)%5) - (((remainderFifty % 10)%5)%2);
-		
+
+		/////// TWO COINS \\\\\\\
+
+		double remainderTwoCoin = ((remainderFifty % 10) % 5) - (((remainderFifty % 10) % 5) % 2);
+
 		if (remainderTwoCoin == 0) {
 
 		} else {
-			System.out.println("You recieve x" + remainderTwoCoin + " 2p coin");
-			
+			System.out.println("You recieve x" + (Math.round(remainderTwoCoin / 2)) + " 2p coin");
 
 		}
-		
 
-		double remainderOneCoin = (((remainderFifty % 10)%5) - (((remainderFifty % 10)%5)%2) -  ((remainderFifty % 10)%5)%2) ;
-		
+		/////// ONE COINS \\\\\\\
+
+		double remainderOneCoin = remainderFifty % 10 % 5 % 2;
+
 		if (remainderOneCoin == 0) {
 
 		} else {
 			System.out.println("You recieve x" + 1 + " 1p coin");
-			
 
 		}
-		
-		
-		
 
 	}
 
