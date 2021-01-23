@@ -23,14 +23,14 @@ public class Arrays {
 
 			arrayExercise2[i] = i+1;
 
-			System.out.println("Number position "+ (i +1) + " "+ arrayExercise2[i]);
+			System.out.println("Number position "+ (i +1) + " :"+ arrayExercise2[i]);
 
 		}
 		
 		for (int j = 0; j < 10; j++) {
 			
 			arrayExercise2[j] = arrayExercise2[j]*10;
-			System.out.println(arrayExercise2[j]);
+			System.out.println("Number position "+ (j +1)+ " :" + arrayExercise2[j]);
 			
 
 		}
