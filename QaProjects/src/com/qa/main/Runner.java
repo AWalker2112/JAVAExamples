@@ -30,10 +30,12 @@ public class Runner {
 		
 		//Arrays.arrayExercise1(num1);
 		
-		Arrays.arrayExercise2();
+		// Arrays.arrayExercise2();
 		
+		//EnhancedForLoops.EnhancedForLoopsExercise2();
+		//System.out.println(EnhancedForLoops.EnhancedForLoopsExercise3(5));
 		
-
+		EnhancedForLoops.EnhancedForLoopsExercise4();
 	}
 
 }
