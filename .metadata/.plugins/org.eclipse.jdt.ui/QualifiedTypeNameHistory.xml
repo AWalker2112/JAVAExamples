@@ -11,4 +11,6 @@
     <fullyQualifiedTypeName name="com.qa.main.BlackJack"/>
     <fullyQualifiedTypeName name="com.qa.main.UniqueSum"/>
     <fullyQualifiedTypeName name="com.qa.main.IterationFlowChart"/>
+    <fullyQualifiedTypeName name="com.qa.main.EnhancedForLoops"/>
+    <fullyQualifiedTypeName name="com.qa.main.ArrayListExercise"/>
 </qualifiedTypeNameHistroy>
