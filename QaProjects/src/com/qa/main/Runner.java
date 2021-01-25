@@ -35,7 +35,12 @@ public class Runner {
 		//EnhancedForLoops.EnhancedForLoopsExercise2();
 		//System.out.println(EnhancedForLoops.EnhancedForLoopsExercise3(5));
 		
-		EnhancedForLoops.EnhancedForLoopsExercise4();
+		//EnhancedForLoops.EnhancedForLoopsExercise4();
+		
+		ArrayListExercise.arrayListExercise();
+		
 	}
 
+	
+	
 }
