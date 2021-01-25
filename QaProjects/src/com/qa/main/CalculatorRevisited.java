@@ -29,21 +29,28 @@ public class CalculatorRevisited {
 		return result;
 	}
 
-	public static void operatorDivide(int firstNumber, int secondNumber) {
+	public static double operatorDivide(int firstNumber, int secondNumber) {
 
 		double num1 = firstNumber;
 		double num2 = secondNumber;
+		
+		double result = num1 / num2;
+		
+		return result;
+	
+		
+		// Below for revisited example
 
-		if (num1 < num2) {
-
-			double result = num1 / num2;
-			System.out.println(result);
-
-		} else {
-
-			System.out.println("The operation cannot be performed. The first number must be smaller than the second.");
-
-		}
+//		if (num1 < num2) {
+//
+//			double result = num1 / num2;
+//			System.out.println(result);
+//
+//		} else {
+//
+//			System.out.println("The operation cannot be performed. The first number must be smaller than the second.");
+//
+//		}
 
 	}
 };

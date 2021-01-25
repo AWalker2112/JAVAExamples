@@ -2,7 +2,6 @@ package com.qa.main;
 
 public class Runner {
 
-
 	public static void main(String[] args) {
 		// CalculatorRevisited.operatorDivide(1, 2);
 
@@ -24,23 +23,25 @@ public class Runner {
 
 		// Coins.coinsExercise(20, 13.67); //(Payment, Cost)
 
-		// StringManipulation.stringManipulation4();
-		
-		//int num1[]={1,2,3,4,5,6,7,8,9,10};
-		
-		//Arrays.arrayExercise1(num1);
-		
+		// StringManipulation.stringManipulation2();
+
+		// int num1[]={1,2,3,4,5,6,7,8,9,10};
+
+		// Arrays.arrayExercise1(num1);
+
 		// Arrays.arrayExercise2();
-		
-		//EnhancedForLoops.EnhancedForLoopsExercise2();
-		//System.out.println(EnhancedForLoops.EnhancedForLoopsExercise3(5));
-		
-		//EnhancedForLoops.EnhancedForLoopsExercise4();
-		
-		ArrayListExercise.arrayListExercise();
+
+		// EnhancedForLoops.EnhancedForLoopsExercise2();
+		// System.out.println(EnhancedForLoops.EnhancedForLoopsExercise3(5));
+
+		// EnhancedForLoops.EnhancedForLoopsExercise4();
+
+		// ArrayListExercise.arrayListExercise();
+
+		// ScannerTutorial.scanner();
+
+		ScannerPersonExercise.workStore();
 		
 	}
 
-	
-	
 }
