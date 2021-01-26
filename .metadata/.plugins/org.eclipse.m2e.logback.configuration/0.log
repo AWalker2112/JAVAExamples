@@ -913,3 +913,6 @@
 2021-01-25 16:34:23,341 [Worker-41: Launching QuestionTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\alexw\eclipse-workspace\For Trainees\Test Driven Development One\src\test\resources
 2021-01-25 16:47:18,521 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-01-25 16:47:18,522 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\alexw\eclipse-workspace\For Trainees\Test Driven Development One\src\main\resources
+2021-01-25 16:47:18,522 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-25 16:47:18,523 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\alexw\eclipse-workspace\For Trainees\Test Driven Development One\src\test\resources
+2021-01-26 08:50:34,481 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

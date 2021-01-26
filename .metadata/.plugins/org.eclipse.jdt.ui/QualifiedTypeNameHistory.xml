@@ -3,15 +3,23 @@
     <fullyQualifiedTypeName name="com.sun.tools.sjavac.pubapi.PubApi"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="HelloWorldClass"/>
-    <fullyQualifiedTypeName name="com.qa.main.CalculatorRevisited"/>
     <fullyQualifiedTypeName name="com.qa.main.ResultsRevisited"/>
     <fullyQualifiedTypeName name="com.qa.main.FlowCharts"/>
     <fullyQualifiedTypeName name="com.qa.main.DescisionMaker"/>
-    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
     <fullyQualifiedTypeName name="com.qa.main.BlackJack"/>
     <fullyQualifiedTypeName name="com.qa.main.UniqueSum"/>
     <fullyQualifiedTypeName name="com.qa.main.IterationFlowChart"/>
     <fullyQualifiedTypeName name="com.qa.main.EnhancedForLoops"/>
     <fullyQualifiedTypeName name="com.qa.main.ArrayListExercise"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="com.qa.main.ScannerTutorial"/>
+    <fullyQualifiedTypeName name="com.qa.main.CalculatorRevisited"/>
+    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
+    <fullyQualifiedTypeName name="com.qa.main.ScannerStorage"/>
+    <fullyQualifiedTypeName name="com.qa.mainInterface.AbstractExerciseShape"/>
+    <fullyQualifiedTypeName name="com.qa.main.ScannerPersonExercise"/>
+    <fullyQualifiedTypeName name="com.qa.garage.Vehicle"/>
+    <fullyQualifiedTypeName name="com.qa.garage.Car"/>
+    <fullyQualifiedTypeName name="com.qa.garage.Motorcycle"/>
+    <fullyQualifiedTypeName name="com.qa.garage.Van"/>
 </qualifiedTypeNameHistroy>

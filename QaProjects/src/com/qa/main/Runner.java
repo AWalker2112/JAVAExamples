@@ -40,8 +40,8 @@ public class Runner {
 
 		// ScannerTutorial.scanner();
 
-		ScannerPersonExercise.workStore();
-		
+		//ScannerStorage.scannerStorage();
+		ScannerMenu.scannerMenu();
 	}
 
 }
