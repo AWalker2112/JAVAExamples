@@ -22,4 +22,7 @@
     <fullyQualifiedTypeName name="com.qa.garage.Car"/>
     <fullyQualifiedTypeName name="com.qa.garage.Motorcycle"/>
     <fullyQualifiedTypeName name="com.qa.garage.Van"/>
+    <fullyQualifiedTypeName name="com.qa.temperatureConverterTest.TemperatureConverterTest"/>
+    <fullyQualifiedTypeName name="com.qa.blackjack.Blackjack"/>
+    <fullyQualifiedTypeName name="org.junit.Before"/>
 </qualifiedTypeNameHistroy>
